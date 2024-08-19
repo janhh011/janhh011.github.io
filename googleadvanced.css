@@ -1,0 +1,103 @@
+
+html, body{
+  height: 50%;
+  margin: 20px;
+  display: grid;
+  justify-content: left;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left: 70px;
+  margin-top: 70px;
+  margin-bottom: 300px;
+  
+}
+
+.form-container{
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+
+.searchfor{
+  margin-right: 10px;
+  width: 200px;
+}
+
+.appbar{
+  margin-left: 10px;
+}
+
+input[alt="searchfield"]{
+  width: 400px;
+}
+
+input[type="submit"]{
+width: 140px;
+height: 30px;
+color: white;
+background-color: #4387ec;
+font-weight: bold;
+font-size: 12px;
+border: none;
+border-radius: 2px;
+}
+
+.submit-btn{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 105%;               
+  background-color: lightgray;
+  height: 1px;
+}
+
+/*Links in the top right*/
+.topright{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: inline-block;
+  padding: 10px 10px;
+  margin: 5px;
+}
+
+.topleft{
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  display: inline-block;
+  padding: 10px 10px;
+  margin: 5px;
+}
+
+a{
+  color: gray;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+a+a {
+  margin-left: 10px;
+}
